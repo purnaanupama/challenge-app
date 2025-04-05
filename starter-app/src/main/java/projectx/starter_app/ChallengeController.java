@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/challenges")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "https://challenge-appv4.netlify.app/"})
 public class ChallengeController {
 private ChallengeService challengeService;
 
